@@ -1,0 +1,294 @@
+
+/* landscape mode */
+@media only screen and (min-width:992px) and (max-width:1199px){
+
+.container{
+    max-width: 960px;
+}
+.container-in{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.content1{
+    width: 308px;
+}
+.content{
+    width: 312px;
+}
+
+}
+
+
+/* potrait mode */
+@media only screen and (min-width:768px) and (max-width:991px){
+
+.container{
+    max-width: 100%;
+    padding: 0px 15px;
+}
+.container-in{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.content {
+    width: 237px;
+    margin-right: 15px;
+}
+.content1 {
+    width: 238px;
+
+}
+.icon2{
+margin-right: 15px;
+margin-left: 0px;
+}
+.content1 p,.content p{
+    font-size: 14px;
+}
+.services-left, .services-right {
+    width: 50%;
+}
+.content h3,.content1 h3 {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.download{
+    background-color: #bfc2bc;
+    background-image: none;
+}
+.btn3{
+    padding-right: 150px;
+}
+.footer2 {
+    font-size: 10px;
+}
+.footer h1 {
+    font-size: 30px;
+}
+.recent1 {
+    font-size: 23px;
+}
+
+}
+
+
+/* landscape mode  */
+
+@media only screen and (min-width:576px) and (max-width:767px){
+
+.container{
+    max-width: 100%;
+    padding: 0px 15px;
+}
+.download1 h1 {
+    
+    font-size:24px;
+}
+.enterprise h1{
+    font-size: 26px;
+}
+.enterprise p {
+    font-size: 17px;
+}
+.btn1{
+    font-size: 11px;
+    padding: 17px 30px;
+} 
+.btn2{
+    font-size: 12px;
+    padding: 13px 30px;
+}
+.download{
+    background-color: #bfc2bc;
+    background-image: none;
+}
+.container-in{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.content {
+    width: 226px;
+    margin-right: 10px;
+}
+.content1 {
+    width: 222px;
+
+}
+.icon2{
+margin-right: 15px;
+margin-left: 0px;
+}
+
+.content1 p,.content p{
+    font-size: 10px;
+}
+.services-left, .services-right {
+    width: 50%;
+}
+.icon{
+    width: 80px;
+}
+.icon2{
+    width: 80px;
+}
+.content h3,.content1 h3 {
+    
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+.company1 p{
+    margin-bottom: 30px;
+    font-size:15px;
+}
+.recent1 {
+    font-size: 14px;
+}
+.recent3 img{
+    width: 90px;
+}
+.layer1 img{
+    padding-right: 20px;
+}
+.recent{
+    padding: 120px 20px;
+}
+.blog{
+    padding: 25px 40px;
+} 
+.company1 h2,.blog h2{
+    font-size: 20px;
+}
+.btn3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    padding-right: 118px;
+}
+.btn4{
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer h1{
+    font-size: 32px;
+}
+.footer2{
+    font-size: 9px;
+}
+
+}
+
+
+@media only screen and (max-width:575px){
+    .container{
+        max-width: 100%;
+        padding: 0px 14px;
+    }
+
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        width: 100%;
+    }
+    .social-icons{
+        float: left;
+    }
+    .enterprise h1{
+        font-size: 14px;
+    }
+    .enterprise p{
+        font-size:10px ;
+    }
+    .btn1{
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+    .btn2 {
+        padding: 9px 20px;
+    }
+    .enterprise {
+        padding: 100px 0px;
+    }
+    .container-in {
+        padding: 0px 0px;
+    }
+    .services-left, .services-right{
+        width: 100%;
+      
+    }
+    .content,.layer1,.blog2{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .icon2{
+        margin-left: 0px;
+    }
+    .company1 h2, .blog h2{
+        margin-bottom: 26px;
+        font-size: 40px;
+    }
+    .company1 p, .blog p{
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .content h3{
+        text-align: left;
+        font-size: 35px ;
+    }
+    
+    .content p{ 
+        font-size: 35px;
+        margin-bottom: 0px;
+        
+    }
+     
+    .content1 h3{
+        text-align: left;
+        font-size: 35px ;
+    }
+    .content1 p{
+        font-size: 35px;
+        margin-bottom: 0px;
+       
+    
+    }
+     
+    .recent{
+        background-image: none;
+        background-color: #242726;
+    }
+    .recent1{
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .recent3 img{
+        margin-top: 50px;
+        width: 50px;
+    }
+    .blog{
+        padding: 0px 0px;
+    }
+    .footer h1 {
+        font-size: 25px;
+    }
+    .btn4 {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .btn3{
+        padding-right: 0px;
+        width: 100%;
+        font-size: 28px;
+    }
+
+
+
+}
+
+
